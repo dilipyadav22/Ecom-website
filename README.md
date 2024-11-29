@@ -3,7 +3,7 @@ https://ecom-website-kcljaparc-dilip-kumaryadavs-projects.vercel.app/product/1
 
 if your cloning the project so do:-
 
-1 git clone
+1 git clone("link") 
 2 npm install 
   check package.json file (  "react": "^18.3.1",
                               "react-dom": "^18.3.1",
