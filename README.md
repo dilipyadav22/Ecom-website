@@ -1,5 +1,5 @@
 This is the webSite link you can visit:_  
-https://ecom-website-kcljaparc-dilip-kumaryadavs-projects.vercel.app
+https://ecom-website-taupe.vercel.app/
 
 if your cloning the project so do:-
 
