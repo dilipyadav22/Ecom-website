@@ -1,15 +1,11 @@
-This is the webSite link you can visit:_  
-https://ecom-website-taupe.vercel.app/
+this is firebase deploy link:
+https://e-commerce-80a38.web.app/
 
-if your cloning the project so do:-
+all codes  in testing Branch
 
-1 git clone("link") 
-2 npm install 
-  check package.json file (  "react": "^18.3.1",
-                              "react-dom": "^18.3.1",
-                              "react-icons": "^5.3.0",
-                              "react-router-dom": "^7.0.1", ) 
-                              
-  check these dependencies having of not if not havin please downolad by terminal  with this command : "npm i reac-router-dom"  like this anything you can download
+git clone:
+npm install
+check the Firebase file included, after the npm install command.
 
-  3 project run by this command:- nm start
+
+npm start
