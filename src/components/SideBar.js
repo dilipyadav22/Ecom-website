@@ -50,11 +50,11 @@ const SideBar = () => {
           </div>
         </div>
       </div>
-      <Link to='/' className=' bg-green-300 flex p-4 justify-center items-center
-      text-primary w-full font-medium ' >View cart</Link>
+      <Link to='/'> <button className=' bg-green-300 flex p-4 justify-center items-center
+      text-primary w-full font-medium ' onClick={handleClose}> View cart</button></Link>
 
-      <Link to= '/' className=' bg-primary flex p-4 justify-center items-center
-      text-white w-full font-medium ' >Check Out</Link>
+      <Link to= '/'> <button className=' bg-primary flex p-4 justify-center items-center
+      text-white w-full font-medium ' onClick={()=>clearCart()} >Check Out</button></Link>
 
       </div>
       </div>

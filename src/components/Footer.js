@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
 
         <div className='text-white font-bold text-3xl ' > 
-          <Link to ={'https://in.indeed.com/cmp/Sembark-Travel-Software  '} target="_blank"><FaLinkedinIn />
+          <Link to ='#' target="_blank"><FaLinkedinIn />
           </Link>
         </div>
         

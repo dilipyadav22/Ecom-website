@@ -5,6 +5,8 @@ import App from './App';
 import ProductProvider from './contexts/ProductContext';
 import SidebarProvider from './contexts/SidebarContext';
 import CartProvider from './contexts/CartContext';
+import { Provider } from 'react-redux';
+import appStore from './utils/appStore';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,7 +14,9 @@ root.render(
     <CartProvider>
     <ProductProvider>
     <React.StrictMode>
+      <Provider store={appStore}>
       <App />
+      </Provider>
     </React.StrictMode>
     </ProductProvider>
     </CartProvider>
