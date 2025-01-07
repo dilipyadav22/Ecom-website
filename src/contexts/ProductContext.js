@@ -14,6 +14,7 @@ const ProductProvider = ({children}) => {
       setproduct(data);
     };
     fetchProducts();
+    
 },[])
 
   return (

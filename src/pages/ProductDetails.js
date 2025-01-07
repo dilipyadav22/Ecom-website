@@ -18,7 +18,7 @@ const ProductDetails = () => {
   }
  
 
-  const {title,price,description,image}= produ
+  const {title,price,description,image,rating}= produ
      return (
       <section className='pt-32 pb-12 lg:py-32 h-screen
       flex items-center' >
@@ -38,6 +38,7 @@ const ProductDetails = () => {
         </div>
 
         <p className='mb-8' > {description}</p>
+        {/* <p className='mb-5'> {rating} </p> */}
         <button onClick={()=> addToCart(produ , produ.id)}
         className='bg-primary py-4 px-8 text-white  ' >
           Add to Cart</button>
